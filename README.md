@@ -38,4 +38,4 @@ snrc-archive/
 
 ## Publishing (GitHub Pages)
 Push changes to the `main` branch. The site updates automatically within ~60 seconds at:
-`https://[your-username].github.io/snrc-archive/`
+`https://vendetta-ca.github.io/archive-snrc/`
