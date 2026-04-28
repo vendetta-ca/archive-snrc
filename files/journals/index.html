@@ -5,42 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Field Journals — SNRC</title>
   <link rel="stylesheet" href="../../css/snrc.css" />
+  <script>window.SNRC_ROOT = '../../'; window.SNRC_ACTIVE = 'journals';</script>
+  <script src="../../js/snrc-nav.js" defer></script>
 </head>
 <body>
 <div class="site-wrap">
 
-  <header class="site-header">
-    <div class="header-top">
-      <div>
-        <div class="header-eyebrow">International Treaty Organization — Est. 2007</div>
-        <div class="site-title">Sub Nautical Research Coalition</div>
-      </div>
-      <div class="header-meta">
-        <div>SNRC / PUBLIC ARCHIVE</div>
-        <div>Access tier: <strong>1 — Public</strong></div>
-      </div>
-    </div>
-    <nav class="header-nav">
-      <a href="../../index.html">Portal</a>
-      <a href="../entities/index.html">Entity catalogue</a>
-      <a href="index.html" class="active">Field journals</a>
-      <a href="../divisions/index.html">Divisions</a>
-    </nav>
-  </header>
-
   <div class="doc-header">
-    <div class="doc-id">SNRC / Field journals — all divisions</div>
+    <div class="doc-id">SNRC / Field journals — public access — Access Tier 1</div>
     <div class="doc-title">Field journals</div>
-    <p style="color: var(--ink-2); font-size: 13px;">Personal field journals submitted by SNRC researchers. Entries may be flagged or redacted by divisional coordinators. All entries are subject to the 1962 Accord.</p>
+    <p style="color:var(--ink-2);font-size:13px;max-width:680px;line-height:1.8;">Personal field journals submitted by SNRC researchers and retained as supporting documentation for phenomenon files. Entries are preserved as submitted. Coordinator notes may be appended where relevant. All entries included here have been reviewed for public distribution.</p>
   </div>
 
-  <div class="card" style="padding: 0; overflow: hidden; margin-bottom: 24px;">
+  <div class="card" style="overflow:hidden;margin-bottom:24px;">
     <table class="file-table">
       <thead>
         <tr>
           <th>ID</th>
           <th>Author</th>
           <th>Description</th>
+          <th>Related phenomenon</th>
           <th>Division</th>
           <th>Status</th>
         </tr>
@@ -49,19 +33,22 @@
         <tr>
           <td class="td-id"><a href="j-halvorsen-04.html">JNL-HAL-04</a></td>
           <td style="font-size:13px;">Dr. I. Halvorsen</td>
-          <td>Fram Strait — first encounter observation</td>
+          <td>Fram Strait — signal observation, day 22</td>
+          <td class="td-meta"><a href="../entities/snrc-ii-0004.html">SNRC-II-0004</a></td>
           <td class="td-meta">Arctic</td>
-          <td><span class="pill pill-amber">Flagged</span></td>
+          <td><span class="pill pill-gray">Coordinator reviewed</span></td>
         </tr>
         <!-- Add new journal rows here -->
+        <!-- ID format: j-[author-surname]-[entry number, two digits] -->
+        <!-- e.g. j-santos-01, j-brandt-02 -->
       </tbody>
     </table>
   </div>
 
-  <footer class="site-footer">
-    <span>SNRC INT-ARCHIVE v4.0.2 — 1962 Maritime Secrecy Accord</span>
-    <span>Node: atl-relay-03</span>
-  </footer>
+  <div class="doc-nav">
+    <a href="../../index.html">← Portal</a>
+    <span>Field journals archive · Access Tier 1</span>
+  </div>
 
 </div>
 </body>

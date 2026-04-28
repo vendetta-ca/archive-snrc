@@ -5,41 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SNRC — Sub Nautical Research Coalition</title>
   <link rel="stylesheet" href="css/snrc.css" />
+  <script>window.SNRC_ROOT = ''; window.SNRC_ACTIVE = 'portal';</script>
+  <script src="js/snrc-nav.js" defer></script>
 </head>
 <body>
-
 <div class="site-wrap">
 
-  <!-- ── Header ── -->
-  <header class="site-header">
-    <div class="header-top">
-      <div>
-        <div class="header-eyebrow">International Treaty Organization — Est. 2007</div>
-        <div class="site-title">Sub Nautical Research Coalition</div>
-      </div>
-      <div class="header-meta">
-        <div>SNRC / PUBLIC ARCHIVE</div>
-        <div>Access tier: <strong>1 — Public</strong></div>
-        <div class="mono" style="font-size:10px;">Session: USR-<span class="rx">████</span>-07 &nbsp;·&nbsp; 2031-04-20</div>
-      </div>
-    </div>
-    <nav class="header-nav">
-      <a href="index.html" class="active">Portal</a>
-      <a href="files/entities/index.html">Entity catalogue</a>
-      <a href="files/journals/index.html">Field journals</a>
-      <a href="files/divisions/index.html">Divisions</a>
-    </nav>
-  </header>
-
-  <!-- ── Alert banner ── -->
-  <div class="bulletin urgent" style="margin-bottom: 20px;">
-    <strong>Notice — 2031-04-17:</strong> Access to Black Sea Division files suspended pending internal review. Sessions originating from <span class="rx">██████████</span> nodes will be automatically terminated. Contact your divisional liaison for authorization.
+  <!-- Archival Directive — public-facing mission statement per spec -->
+  <div class="bulletin" style="margin-bottom:22px;">
+    <strong>SNRC Archival Directive — Public Interface Copy</strong><br/>
+    The Sub Nautical Research Coalition is responsible for the observation, documentation, and preservation of irregular phenomena identified within oceanic environments. All archived materials are maintained in accordance with internal standards to ensure consistency, accuracy, and controlled dissemination of data. Due to the complexity and depth-related limitations of direct study, certain classifications and interpretations are informed by external advisory processes. These processes have been reviewed and approved for continued use. Some determinations recorded within this system may not include full methodological transparency. This is expected. Further access requests may be submitted through appropriate channels. <em>— Authorization Verified</em>
   </div>
 
-  <!-- ── Stat row ── -->
+  <!-- Stats — sanitized for CL-1, no breach language -->
   <div class="stat-grid">
     <div class="stat-cell">
-      <div class="stat-label">Active incidents</div>
+      <div class="stat-label">Documented phenomena</div>
       <div class="stat-value">14</div>
     </div>
     <div class="stat-cell">
@@ -47,152 +28,157 @@
       <div class="stat-value">31</div>
     </div>
     <div class="stat-cell">
-      <div class="stat-label">Catalogued entities</div>
-      <div class="stat-value mono"><span class="rx">███</span></div>
+      <div class="stat-label">Catalogued entries</div>
+      <div class="stat-value" style="font-family:var(--mono);">147</div>
     </div>
-    <div class="stat-cell danger">
-      <div class="stat-label">Breach events (90d)</div>
-      <div class="stat-value">3</div>
+    <div class="stat-cell">
+      <div class="stat-label">Active observations</div>
+      <div class="stat-value">9</div>
     </div>
   </div>
 
-  <!-- ── Main two-col ── -->
   <div class="two-col">
 
-    <!-- Recent filings -->
+    <!-- Recent filings — CL-1: no dangerous grades shown, confident status labels, entries in order from 001 -->
     <div>
       <div class="section-header">
         <span class="section-title">Recent filings</span>
         <a href="files/entities/index.html" class="section-link">View all →</a>
       </div>
-      <div class="card" style="padding: 0; overflow: hidden;">
+      <div class="card" style="overflow:hidden;">
         <table class="file-table">
           <thead>
             <tr>
               <th>ID</th>
-              <th>Description</th>
-              <th>Division</th>
+              <th>Phenomenon</th>
+              <th>Stratum</th>
+              <th>Type</th>
               <th>Status</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td class="td-id"><a href="files/entities/snrc-0091.html">SNRC-0091</a></td>
-              <td>Tonga Trench — acoustic event, vessel loss</td>
-              <td class="td-meta">Pacific</td>
-              <td><span class="pill pill-red">Breach</span></td>
+              <td class="td-id"><a href="files/entities/snrc-i-0001.html">SNRC-I-0001</a></td>
+              <td>Java Sea — bioluminescent cluster, stationary</td>
+              <td class="td-meta">I — Littoral</td>
+              <td class="td-meta">Biological</td>
+              <td><span class="pill pill-teal">Documented</span></td>
             </tr>
             <tr>
-              <td class="td-id"><a href="files/journals/j-halvorsen-04.html">JNL-HAL-04</a></td>
-              <td>Fram Strait — journal entry, first encounter</td>
-              <td class="td-meta">Arctic</td>
-              <td><span class="pill pill-amber">Flagged</span></td>
+              <td class="td-id"><a href="files/entities/snrc-i-0002.html">SNRC-I-0002</a></td>
+              <td>North Sea — acoustic return, single event</td>
+              <td class="td-meta">I — Littoral</td>
+              <td class="td-meta">Acoustic</td>
+              <td><span class="pill pill-teal">Documented</span></td>
             </tr>
             <tr>
-              <td class="td-id"><a href="files/entities/snrc-0074.html">SNRC-0074</a></td>
-              <td>Atacama Trench — containment review</td>
-              <td class="td-meta">Atlantic</td>
-              <td><span class="pill pill-amber">Flagged</span></td>
-            </tr>
-            <tr>
-              <td class="td-id"><a href="files/entities/snrc-0051.html">SNRC-0051</a></td>
-              <td>Philippine Sea — routine monitoring</td>
-              <td class="td-meta">ASEAN</td>
+              <td class="td-id"><a href="files/entities/snrc-ii-0003.html">SNRC-II-0003</a></td>
+              <td>Philippine Sea — biological specimen, monitoring</td>
+              <td class="td-meta">II — Meso.</td>
+              <td class="td-meta">Biological</td>
               <td><span class="pill pill-teal">Stable</span></td>
             </tr>
             <tr>
-              <td class="td-id"><a href="files/entities/snrc-0088.html">SNRC-0088</a></td>
-              <td>Fram Strait — entity reclassification pending</td>
-              <td class="td-meta">Arctic</td>
+              <td class="td-id"><a href="files/entities/snrc-ii-0004.html">SNRC-II-0004</a></td>
+              <td>Fram Strait — signal anomaly, under observation</td>
+              <td class="td-meta">II — Meso.</td>
+              <td class="td-meta">Acoustic</td>
+              <td><span class="pill pill-gray">Under review</span></td>
+            </tr>
+            <tr>
+              <td class="td-id"><a href="files/entities/snrc-iv-0005.html">SNRC-IV-0005</a></td>
+              <td>Atacama Trench — structural formation, catalogued</td>
+              <td class="td-meta">IV — Abysso.</td>
+              <td class="td-meta">Structural</td>
+              <td><span class="pill pill-gray">Under review</span></td>
+            </tr>
+            <tr>
+              <td class="td-id"><a href="files/entities/snrc-v-0006.html">SNRC-V-0006</a></td>
+              <td>Tonga Trench — acoustic anomaly, observation ongoing</td>
+              <td class="td-meta">V — Hadal</td>
+              <td class="td-meta">Acoustic</td>
               <td><span class="pill pill-gray">Under review</span></td>
             </tr>
           </tbody>
         </table>
       </div>
+      <!-- ARG hidden comment — discoverable via page source -->
+      <!--
+        SNRC-I-0001 through SNRC-I-0002 — public access confirmed
+        SNRC-II-0003 through SNRC-II-0004 — public access confirmed
+        SNRC-IV-0005 — access tier verification pending
+        SNRC-V-0006 — access tier verification pending
+        NOTE: entries SNRC-III-0005 and SNRC-IV-0006 are not listed here.
+        Do not query these identifiers through the public interface.
+      -->
     </div>
 
-    <!-- Sidebar -->
-    <div style="display: flex; flex-direction: column; gap: 14px;">
+    <div style="display:flex;flex-direction:column;gap:14px;">
 
-      <!-- Active divisions -->
+      <!-- Divisions — CL-1: no suspension notice, clean presentation -->
       <div>
         <div class="section-header">
           <span class="section-title">Active divisions</span>
           <a href="files/divisions/index.html" class="section-link">View all →</a>
         </div>
-        <div class="card" style="padding: 0;">
-          <table style="width:100%; border-collapse: collapse;">
+        <div class="card">
+          <table style="width:100%;border-collapse:collapse;">
             <tbody>
-              <tr style="border-bottom: 1px solid var(--border);">
-                <td style="padding: 9px 14px; font-size: 13px;"><a href="files/divisions/pacific.html">Pacific</a></td>
-                <td style="padding: 9px 14px; font-size: 11px; font-family: var(--mono); color: var(--ink-2); text-align: right;">Tier 1 &nbsp;·&nbsp; 7 open</td>
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:9px 14px;font-size:13px;"><a href="files/divisions/pacific.html">Pacific</a></td>
+                <td style="padding:9px 14px;font-family:var(--mono);font-size:11px;color:var(--ink-3);text-align:right;">Tier 1 · 7 open</td>
               </tr>
-              <tr style="border-bottom: 1px solid var(--border);">
-                <td style="padding: 9px 14px; font-size: 13px;"><a href="files/divisions/atlantic.html">Atlantic</a></td>
-                <td style="padding: 9px 14px; font-size: 11px; font-family: var(--mono); color: var(--ink-2); text-align: right;">Tier 1 &nbsp;·&nbsp; 4 open</td>
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:9px 14px;font-size:13px;"><a href="files/divisions/atlantic.html">Atlantic</a></td>
+                <td style="padding:9px 14px;font-family:var(--mono);font-size:11px;color:var(--ink-3);text-align:right;">Tier 1 · 4 open</td>
               </tr>
-              <tr style="border-bottom: 1px solid var(--border);">
-                <td style="padding: 9px 14px; font-size: 13px;"><a href="files/divisions/arctic.html">Arctic</a></td>
-                <td style="padding: 9px 14px; font-size: 11px; font-family: var(--mono); color: var(--ink-2); text-align: right;">Tier 2 &nbsp;·&nbsp; 2 open</td>
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:9px 14px;font-size:13px;"><a href="files/divisions/arctic.html">Arctic</a></td>
+                <td style="padding:9px 14px;font-family:var(--mono);font-size:11px;color:var(--ink-3);text-align:right;">Tier 2 · 2 open</td>
               </tr>
-              <tr style="border-bottom: 1px solid var(--border);">
-                <td style="padding: 9px 14px; font-size: 13px;"><a href="files/divisions/indian-ocean.html">Indian Ocean</a></td>
-                <td style="padding: 9px 14px; font-size: 11px; font-family: var(--mono); color: var(--ink-2); text-align: right;">Tier 2 &nbsp;·&nbsp; 1 open</td>
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:9px 14px;font-size:13px;"><a href="files/divisions/indian-ocean.html">Indian Ocean</a></td>
+                <td style="padding:9px 14px;font-family:var(--mono);font-size:11px;color:var(--ink-3);text-align:right;">Tier 2 · 1 open</td>
               </tr>
-              <tr style="border-bottom: 1px solid var(--border);">
-                <td style="padding: 9px 14px; font-size: 13px;"><a href="files/divisions/asean.html">ASEAN Station</a></td>
-                <td style="padding: 9px 14px; font-size: 11px; font-family: var(--mono); color: var(--ink-2); text-align: right;">Tier 2 &nbsp;·&nbsp; 2 open</td>
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:9px 14px;font-size:13px;"><a href="files/divisions/asean.html">ASEAN Station</a></td>
+                <td style="padding:9px 14px;font-family:var(--mono);font-size:11px;color:var(--ink-3);text-align:right;">Tier 2 · 2 open</td>
               </tr>
               <tr>
-                <td style="padding: 9px 14px; font-size: 13px; color: var(--red);">Black Sea</td>
-                <td style="padding: 9px 14px; font-size: 11px; font-family: var(--mono); color: var(--red); text-align: right;">Tier 3 &nbsp;·&nbsp; suspended</td>
+                <td style="padding:9px 14px;font-size:13px;color:var(--ink-3);">Black Sea</td>
+                <td style="padding:9px 14px;font-family:var(--mono);font-size:11px;color:var(--ink-3);text-align:right;">Tier 3 · <span class="rx">██████</span></td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
 
-      <!-- Classification key -->
+      <!-- Grade reference — CL-1: no red grades, confident framing -->
       <div>
         <div class="section-header">
-          <span class="section-title">Classification key</span>
+          <span class="section-title">Grade quick reference</span>
+          <a href="files/framework/index.html" class="section-link">Full framework →</a>
         </div>
-        <div class="card" style="font-size: 12px; line-height: 2.1;">
-          <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
-            <span class="pill pill-teal">Class A</span>
-            <span style="color: var(--ink-2);">Dormant — no observed activity</span>
-          </div>
-          <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
-            <span class="pill pill-blue">Class B</span>
-            <span style="color: var(--ink-2);">Active — behaviour logged</span>
-          </div>
-          <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
-            <span class="pill pill-amber">Class C</span>
-            <span style="color: var(--ink-2);">Hostile — containment active</span>
-          </div>
-          <div style="display:flex; align-items:center; gap:8px;">
-            <span class="pill pill-red">Class D</span>
-            <span style="color: var(--ink-2);">Breach — protocol enacted</span>
-          </div>
+        <div class="card" style="padding:14px 16px;font-size:12px;line-height:2.1;">
+          <div style="display:flex;justify-content:space-between;"><span style="font-family:var(--mono);color:var(--teal);">Grade 1</span><span style="color:var(--ink-2);">Documented</span></div>
+          <div style="display:flex;justify-content:space-between;"><span style="font-family:var(--mono);color:#4A8C6F;">Grade 2</span><span style="color:var(--ink-2);">Modelled</span></div>
+          <div style="display:flex;justify-content:space-between;"><span style="font-family:var(--mono);color:var(--amber);">Grade 3</span><span style="color:var(--ink-2);">Contested</span></div>
+          <div style="display:flex;justify-content:space-between;"><span style="font-family:var(--mono);color:#B05C20;">Grade 4</span><span style="color:var(--ink-2);">Resistant</span></div>
+          <div style="display:flex;justify-content:space-between;"><span style="font-family:var(--mono);color:var(--red);">Grade 5</span><span style="color:var(--ink-2);">Incoherent</span></div>
+          <div style="display:flex;justify-content:space-between;"><span style="font-family:var(--mono);color:var(--ink);">Grade 6</span><span style="color:var(--ink-2);">Unresolvable</span></div>
         </div>
       </div>
 
     </div>
   </div>
 
-  <!-- ── Coalition bulletin ── -->
+  <!-- Bulletin — CL-1: routine, administrative, no alarm -->
   <div class="section-header">
     <span class="section-title">Coalition bulletin</span>
   </div>
-  <div class="bulletin" style="margin-bottom: 20px;">
-    <strong>Re: Entity Classification Protocol Revision (ECR-7)</strong> — All member stations are advised that the reclassification of entities previously listed under Class A ("Dormant — no observed activity") is undergoing mandatory review following the <span class="rx">████████</span> incident. Stations with Class A holdings are required to submit updated behavioural assessments before <strong>2031-05-01</strong>. Failure to comply will result in automatic escalation to Tier 1 oversight. Queries should be directed to the Classification Review Board via your divisional liaison.
+  <div class="bulletin">
+    <strong>Re: Periodic Classification Review (PCR-2031-Q1)</strong> — Member stations are advised that all active phenomena catalogued under Grade 1 ("Documented") are undergoing scheduled quarterly reassessment in accordance with standard protocol. Stations are requested to submit updated observational summaries before <strong>2031-05-01</strong>. This is a routine administrative process. Queries should be directed to the Classification Review Board via your divisional liaison.
   </div>
-
-  <!-- ── Footer ── -->
-  <footer class="site-footer">
-    <span>SNRC INT-ARCHIVE v4.0.2 — Unauthorized disclosure is prosecutable under the 1962 Maritime Secrecy Accord</span>
-    <span>Node: atl-relay-03</span>
-  </footer>
 
 </div>
 </body>

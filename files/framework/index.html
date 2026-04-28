@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classification Framework — SNRC</title>
+  <link rel="stylesheet" href="../../css/snrc.css" />
+  <script>window.SNRC_ROOT = '../../'; window.SNRC_ACTIVE = 'framework';</script>
+  <script src="../../js/snrc-nav.js" defer></script>
+</head>
+<body>
+<div class="site-wrap">
+
+  <div class="doc-header">
+    <div class="doc-id">SNRC / Reference document — SNRC-REF-001 / Revision 4 / 2028-11-03</div>
+    <div class="doc-title">The SNRC Classification Framework</div>
+    <p style="color:var(--ink-2);font-size:13px;max-width:680px;line-height:1.8;">This document describes the system by which the Sub Nautical Research Coalition catalogues, grades, and files all documented phenomena. It is provided in full at Access Tier 1. The framework is designed to ensure consistency, transparency, and accuracy across all member divisions.</p>
+  </div>
+
+  <!-- STRATA -->
+  <div style="font-size:15px;font-weight:500;margin:0 0 8px;padding-bottom:8px;border-bottom:1px solid var(--border-md);">Part I — The Stratum System</div>
+  <p style="font-size:13px;color:var(--ink-2);line-height:1.85;margin-bottom:1.25rem;max-width:720px;">The SNRC does not measure depth in metres in official documentation. Instead, the ocean is divided into six named strata, each representing a distinct operational and environmental zone. The stratum designation of a phenomenon is part of its file ID and is updated if the phenomenon is reclassified. This system allows researchers across all member nations to work from a consistent reference framework regardless of regional depth measurement conventions.</p>
+
+  <div class="framework-entry s1">
+    <div class="framework-entry-head"><span class="framework-entry-id">Stratum I</span><span class="framework-entry-name">The Littoral</span><span class="framework-entry-depth">Coastal margins, tidal zones, continental shelf to ~200m</span></div>
+    <div class="framework-entry-body">The most accessible zone. Phenomena here are observable through standard survey equipment and in many cases by non-Coalition parties. Coalition documentation in this stratum is thorough and cross-referenced against extensive existing scientific literature. Files originating here are generally available at Access Tier 1 in full.</div>
+  </div>
+
+  <div class="framework-entry s2">
+    <div class="framework-entry-head"><span class="framework-entry-id">Stratum II</span><span class="framework-entry-name">The Mesopelagic</span><span class="framework-entry-depth">~200m to ~1,000m — the twilight zone</span></div>
+    <div class="framework-entry-body">Light diminishes significantly through this stratum. Most civilian observation ends near its upper boundary. Coalition monitoring relies primarily on purpose-built acoustic and optical equipment. The Coalition maintains data-sharing agreements with the naval branches of seventeen member nations covering this zone. Phenomena in this stratum are studied via ROV and passive array monitoring.</div>
+  </div>
+
+  <div class="framework-entry s3">
+    <div class="framework-entry-head"><span class="framework-entry-id">Stratum III</span><span class="framework-entry-name">The Bathypelagic</span><span class="framework-entry-depth">~1,000m to ~4,000m — the midnight zone</span></div>
+    <div class="framework-entry-body">No sunlight reaches this stratum. Equipment operates under significant pressure constraints. Phenomena are documented primarily through acoustic records and ROV footage. Stratum III files may carry partial access restrictions at this tier depending on the phenomenon's current grade and the division filing the record.</div>
+  </div>
+
+  <div class="framework-entry s4">
+    <div class="framework-entry-head"><span class="framework-entry-id">Stratum IV</span><span class="framework-entry-name">The Abyssopelagic</span><span class="framework-entry-depth">~4,000m to ~6,000m — the abyss</span></div>
+    <div class="framework-entry-body">Direct observation requires specialised equipment available to fewer than nine member nations. The majority of Stratum IV data is gathered through autonomous sensor arrays. This stratum encompasses a significant portion of the ocean floor. Coalition files at this depth are maintained with the understanding that observational data may be incomplete relative to shallower strata.</div>
+  </div>
+
+  <div class="framework-entry s5">
+    <div class="framework-entry-head"><span class="framework-entry-id">Stratum V</span><span class="framework-entry-name">The Hadal</span><span class="framework-entry-depth">~6,000m to ~11,000m — the trenches</span></div>
+    <div class="framework-entry-body">The deepest accessible regions of the ocean. Direct human observation in this stratum is rare and requires the most advanced submersible technology available to Coalition member nations. Phenomena documented here represent the frontier of direct observation. Some Stratum V file content is available only at higher access tiers due to the complexity and sensitivity of data collected at these depths.</div>
+  </div>
+
+  <div class="framework-entry s6">
+    <div class="framework-entry-head"><span class="framework-entry-id">Stratum VI</span><span class="framework-entry-name">The Uncharted</span><span class="framework-entry-depth">Depth unconfirmed or unconfirmable</span></div>
+    <div class="framework-entry-body">An administrative designation for phenomena whose point of origin cannot be determined through available methods. This is not a geographic zone. It exists to ensure that phenomena with unconfirmable depth data are not assigned to a stratum based on assumption. Files at this designation are maintained under standard Coalition protocol.</div>
+  </div>
+
+  <!-- GRADES -->
+  <div style="font-size:15px;font-weight:500;margin:2.5rem 0 8px;padding-bottom:8px;border-bottom:1px solid var(--border-md);">Part II — The Grade System</div>
+  <p style="font-size:13px;color:var(--ink-2);line-height:1.85;margin-bottom:1.25rem;max-width:720px;">Every phenomenon in the SNRC catalogue carries a Grade from 1 to 6. The Grade reflects the Coalition's current level of understanding of the phenomenon — specifically, how completely the available data can be accounted for by existing scientific frameworks. The Grade is not a measure of danger or severity. It is a measure of knowledge.</p>
+
+  <div class="framework-entry g1">
+    <div class="framework-entry-head"><span class="framework-entry-id" style="color:var(--teal);">Grade 1</span><span class="framework-entry-name">Documented</span></div>
+    <div class="framework-entry-body">The phenomenon has been observed and measured across multiple encounters. A working model exists and is considered reliable. Behaviour is predictable under standard conditions. Grade 1 files form the foundation of the Coalition's published research. The majority of catalogued phenomena are Grade 1.</div>
+  </div>
+
+  <div class="framework-entry g2">
+    <div class="framework-entry-head"><span class="framework-entry-id" style="color:#4A8C6F;">Grade 2</span><span class="framework-entry-name">Modelled</span></div>
+    <div class="framework-entry-body">A working model exists and is considered reliable for most observed behaviour. Documented exceptions to the model have been recorded. These exceptions are considered productive data and are the subject of ongoing research. Grade 2 is the standard classification for phenomena under active study with good baseline data.</div>
+  </div>
+
+  <div class="framework-entry g3">
+    <div class="framework-entry-head"><span class="framework-entry-id" style="color:var(--amber);">Grade 3</span><span class="framework-entry-name">Contested</span></div>
+    <div class="framework-entry-body">Multiple working models exist and are not fully reconcilable. Researchers from different divisions or member nations have independently studied the phenomenon and reached differing conclusions. Grade 3 reflects an active scientific disagreement rather than a failure of understanding. Files at this grade include all competing assessments in full.</div>
+  </div>
+
+  <div class="framework-entry g4">
+    <div class="framework-entry-head"><span class="framework-entry-id" style="color:#B05C20;">Grade 4</span><span class="framework-entry-name">Resistant</span></div>
+    <div class="framework-entry-body">Standard observational methods have not produced a complete working model. Data collection at Grade 4 requires adapted protocol approved by divisional leadership. This grade reflects a limitation of available methodology rather than a property of the phenomenon itself. Field journals from Grade 4 assignments are retained as primary documents.</div>
+  </div>
+
+  <div class="framework-entry g5">
+    <div class="framework-entry-head"><span class="framework-entry-id" style="color:var(--red);">Grade 5</span><span class="framework-entry-name">Incoherent</span></div>
+    <div class="framework-entry-body">Data collected from this phenomenon does not produce a coherent picture when assessed through current analytical frameworks. Grade 5 is an active research classification. It indicates that the Coalition's analytical tools require development before a full assessment can be produced. Files at this grade are maintained with full documentation of all collected data regardless of coherence.</div>
+  </div>
+
+  <div class="framework-entry g6">
+    <div class="framework-entry-head"><span class="framework-entry-id">Grade 6</span><span class="framework-entry-name">Unresolvable</span></div>
+    <div class="framework-entry-body">The Coalition has formally determined that available methods are insufficient to produce a working model of this phenomenon. Research continues. Grade 6 is an administrative designation that ensures adequate resources are maintained for long-term documentation. It does not represent a conclusion about the nature of the phenomenon.</div>
+  </div>
+
+  <!-- TYPES -->
+  <div style="font-size:15px;font-weight:500;margin:2.5rem 0 8px;padding-bottom:8px;border-bottom:1px solid var(--border-md);">Part III — Phenomenon Types</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin-bottom:24px;">
+    <div class="card" style="padding:14px 16px;">
+      <div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:6px;">Biological</div>
+      <div style="font-size:13px;color:var(--ink-2);line-height:1.8;">Living or formerly living phenomena. Includes unidentified specimens, specimens exhibiting unusual behaviour, and organisms whose classification is under review.</div>
+    </div>
+    <div class="card" style="padding:14px 16px;">
+      <div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:6px;">Structural</div>
+      <div style="font-size:13px;color:var(--ink-2);line-height:1.8;">Wrecks, built objects, formations, and inanimate phenomena with a fixed or semi-fixed location. The largest category by file count in the Coalition archive.</div>
+    </div>
+    <div class="card" style="padding:14px 16px;">
+      <div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:6px;">Acoustic</div>
+      <div style="font-size:13px;color:var(--ink-2);line-height:1.8;">Phenomena that exist primarily or exclusively as sound. Includes signals, pulses, and patterns whose physical source has not been confirmed.</div>
+    </div>
+    <div class="card" style="padding:14px 16px;">
+      <div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:6px;">Spatial</div>
+      <div style="font-size:13px;color:var(--ink-2);line-height:1.8;">Phenomena involving location, geometry, or navigation. Includes regions where instrumentation produces inconsistent positional data across multiple surveys.</div>
+    </div>
+    <div class="card" style="padding:14px 16px;">
+      <div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:6px;">Untyped</div>
+      <div style="font-size:13px;color:var(--ink-2);line-height:1.8;">Phenomena for which the above designations do not apply or would be misleading. Assigned when a type designation would constrain interpretation of collected data.</div>
+    </div>
+  </div>
+
+  <!-- FILE STRUCTURE -->
+  <div style="font-size:15px;font-weight:500;margin:2rem 0 8px;padding-bottom:8px;border-bottom:1px solid var(--border-md);">Part IV — File Structure</div>
+  <p style="font-size:13px;color:var(--ink-2);line-height:1.85;margin-bottom:1rem;max-width:720px;">Every SNRC phenomenon file follows a consistent structure. This structure has been standard since the Coalition's founding and is used across all member divisions to ensure comparability of records.</p>
+
+  <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:24px;">
+    <div style="padding:13px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);font-size:13px;"><div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:4px;">Phenomenon ID</div><div style="color:var(--ink-2);line-height:1.8;">Format: <span style="font-family:var(--mono);">SNRC-[stratum]-[four digit number]</span>. If the stratum is reclassified, the ID is updated and the previous ID is preserved as a cross-reference.</div></div>
+    <div style="padding:13px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);font-size:13px;"><div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:4px;">Grade &amp; Grade History</div><div style="color:var(--ink-2);line-height:1.8;">Current grade plus full grade history with dates and approving authority. All grade changes are documented.</div></div>
+    <div style="padding:13px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);font-size:13px;"><div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:4px;">Summary</div><div style="color:var(--ink-2);line-height:1.8;">A plain-language description of what is known. Written to be accurate and complete within the constraints of the current grade and access tier.</div></div>
+    <div style="padding:13px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);font-size:13px;"><div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:4px;">Contact Log</div><div style="color:var(--ink-2);line-height:1.8;">A numbered record of every Coalition-sanctioned encounter. Outcome vocabulary: <em>Nominal, Anomalous, Degraded, Terminated, Personnel loss.</em></div></div>
+    <div style="padding:13px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);font-size:13px;"><div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:4px;">Research Notes</div><div style="color:var(--ink-2);line-height:1.8;">Informal observations by the filing researcher. Retained as submitted. Coordinator notes may be appended.</div></div>
+    <div style="padding:13px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);font-size:13px;"><div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:4px;">Open Questions</div><div style="color:var(--ink-2);line-height:1.8;">A numbered list of unresolved questions. Resolved questions are retained and marked. The list grows over the life of a file and is never shortened.</div></div>
+    <div style="padding:13px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);font-size:13px;"><div style="font-family:var(--mono);font-size:11px;font-weight:500;color:var(--accent);margin-bottom:4px;">Dissenting Assessments</div><div style="color:var(--ink-2);line-height:1.8;">Formal dissents filed by any Coalition researcher against any finding. Retained in full alongside the findings they contest.</div></div>
+  </div>
+
+  <!-- CL-2: The framework document was revised in 2025. The original 2007 version included a section on -->
+  <!-- "external advisory processes" that was removed in revision 3. It was restored in revision 4 -->
+  <!-- in a different form. The original language is not available at this access tier. -->
+
+  <div class="doc-nav">
+    <a href="../../index.html">← Return to portal</a>
+    <span>SNRC-REF-001 · Rev. 4 · 2028-11-03 · Access Tier 1</span>
+  </div>
+
+</div>
+</body>
+</html>
